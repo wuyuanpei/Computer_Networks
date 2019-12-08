@@ -1,0 +1,130 @@
+put foo bar
+/127.0.0.1:50068 sending packet to /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:put
+key:foo
+value:bar
+tag:44820
+ttl:100
+
+/127.0.0.1:50068 received packet from /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:success
+key:foo
+value:bar
+tag:44820
+ttl:98
+
+put who hah
+/127.0.0.1:60735 sending packet to /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:put
+key:who
+value:hah
+tag:82765
+ttl:100
+
+/127.0.0.1:60735 received packet from /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:success
+key:who
+value:hah
+tag:82765
+ttl:98
+
+get foo
+/127.0.0.1:61313 sending packet to /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:get
+key:foo
+tag:74119
+ttl:100
+
+/127.0.0.1:61313 received packet from /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:success
+key:foo
+value:bar
+tag:74119
+ttl:98
+
+get who
+/127.0.0.1:57229 sending packet to /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:get
+key:who
+tag:65831
+ttl:100
+
+/127.0.0.1:57229 received packet from /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:success
+key:who
+value:hah
+tag:65831
+ttl:98
+
+get goodbye
+/127.0.0.1:51255 sending packet to /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:get
+key:goodbye
+tag:59906
+ttl:100
+
+/127.0.0.1:51255 received packet from /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:no match
+key:goodbye
+tag:59906
+ttl:98
+
+get
+get bar
+/127.0.0.1:53481 sending packet to /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:get
+key:bar
+tag:21377
+ttl:100
+
+/127.0.0.1:53481 received packet from /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:no match
+key:bar
+tag:21377
+ttl:98
+
+put foo toast is tasty
+/127.0.0.1:64155 sending packet to /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:put
+key:foo
+value:toast is tasty
+tag:15219
+ttl:100
+
+/127.0.0.1:64155 received packet from /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:success
+key:foo
+value:toast is tasty
+tag:15219
+ttl:98
+
+get foo
+/127.0.0.1:61947 sending packet to /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:get
+key:foo
+tag:82305
+ttl:100
+
+/127.0.0.1:61947 received packet from /127.0.0.1:56460
+CSE473 DHTPv0.1
+type:success
+key:foo
+value:toast is tasty
+tag:82305
+ttl:98
+

@@ -1,0 +1,18 @@
+#! /bin/bash
+source /users/onl/.topology
+
+password=$1
+
+host[1]=$h1x2
+host[2]=$h1x3
+host[3]=$h2x2
+host[4]=$h2x3
+host[5]=$h2x4
+
+sshpass -p $password ssh $VM64bit_2port1 "echo $password | sudo -S sh -c \"echo '1' > /proc/sys/net/ipv4/ip_forward\""
+
+sshpass -p $password ssh $h1x2 "echo $password | sudo -S route add -net 192.168.2.0/24 gw 192.168.1.1"
+sshpass -p $password ssh $h1x3 "echo $password | sudo -S route add -net 192.168.2.0/24 gw 192.168.1.1"
+sshpass -p $password ssh $h2x2 "echo $password | sudo -S route add -net 192.168.1.0/24 gw 192.168.2.1"
+sshpass -p $password ssh $h2x3 "echo $password | sudo -S route add -net 192.168.1.0/24 gw 192.168.2.1"
+sshpass -p $password ssh $h2x4 "echo $password | sudo -S route add -net 192.168.1.0/24 gw 192.168.2.1"

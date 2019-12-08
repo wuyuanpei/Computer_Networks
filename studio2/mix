@@ -1,0 +1,10 @@
+#! /bin/bash
+source /users/onl/.topology
+while true ; do
+	ssh $h4x2 /usr/bin/iperf -c h7x1 -t 30 &
+	sleep 8
+	ssh $h5x2 /usr/bin/iperf -c h6x1 -t 30 &
+	sleep 8
+	ssh $h1x1 /usr/bin/iperf -c h3x2 -u -b 6m -t 30 &
+	sleep 40
+done

@@ -1,0 +1,3 @@
+#! /bin/bash
+source /users/onl/.topology
+ssh $h6x1 /usr/bin/iperf -s -u &

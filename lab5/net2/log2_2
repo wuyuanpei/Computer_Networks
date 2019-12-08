@@ -1,0 +1,241 @@
+Forwarding table (10.030)
+0.0.0.0/0 0
+1.3.0.0/16 0
+
+Routing table (10.023)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     10.002    0.012     0      valid 1.3.0.1
+
+Forwarding table (10.047)
+0.0.0.0/0 0
+1.3.0.0/16 0
+1.1.0.0/16 1
+
+Routing table (10.048)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     10.002    0.012     0      valid 1.3.0.1
+1.1.0.0/16     10.001    0.022     1      valid 1.1.0.1
+
+Forwarding table (10.113)
+0.0.0.0/0 0
+1.3.0.0/16 0
+1.1.0.0/16 1
+1.4.0.0/16 1
+
+Routing table (10.112)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     10.002    0.012     0      valid 1.3.0.1
+1.1.0.0/16     10.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     10.015    0.036     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (20.019)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     20.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16     10.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     10.015    0.036     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (20.032)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     20.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16     20.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     10.015    0.036     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (20.094)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     20.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16     20.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     20.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (30.022)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     30.001    0.013     0      valid 1.3.0.1
+1.1.0.0/16     20.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     20.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (30.032)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     30.001    0.013     0      valid 1.3.0.1
+1.1.0.0/16     30.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     20.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (30.104)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     30.001    0.013     0      valid 1.3.0.1
+1.1.0.0/16     30.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     30.007    0.035     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (40.023)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     40.002    0.012     0      valid 1.3.0.1
+1.1.0.0/16     30.001    0.022     1    invalid 	 1.1.0.1	 ** disabled link
+1.4.0.0/16     30.007    0.035     1    invalid 	 1.1.0.1 1.4.0.1	 ** disabled link
+
+Forwarding table (40.136)
+0.0.0.0/0 0
+1.3.0.0/16 0
+1.1.0.0/16 0
+1.4.0.0/16 1
+
+Routing table (40.136)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     40.002    0.012     0      valid 1.3.0.1
+1.1.0.0/16     40.002    0.127     0      valid 1.3.0.1 1.4.0.1 1.1.0.1
+1.4.0.0/16     30.007    0.035     1    invalid 	 1.1.0.1 1.4.0.1	 ** disabled link
+
+Forwarding table (40.175)
+0.0.0.0/0 0
+1.3.0.0/16 0
+1.1.0.0/16 0
+1.4.0.0/16 0
+
+Routing table (40.175)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     40.002    0.012     0      valid 1.3.0.1
+1.1.0.0/16     40.002    0.127     0      valid 1.3.0.1 1.4.0.1 1.1.0.1
+1.4.0.0/16     40.001    0.115     0      valid 1.3.0.1 1.4.0.1
+
+Routing table (50.019)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     50.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16     40.002    0.127     0      valid 1.3.0.1 1.4.0.1 1.1.0.1
+1.4.0.0/16     40.001    0.115     0      valid 1.3.0.1 1.4.0.1
+
+Routing table (50.132)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     50.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16     50.001    0.126     0      valid 1.3.0.1 1.4.0.1 1.1.0.1
+1.4.0.0/16     40.001    0.115     0      valid 1.3.0.1 1.4.0.1
+
+Routing table (50.183)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     50.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16     50.001    0.126     0      valid 1.3.0.1 1.4.0.1 1.1.0.1
+1.4.0.0/16     50.001    0.114     0      valid 1.3.0.1 1.4.0.1
+
+Routing table (60.020)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     60.001    0.013     0      valid 1.3.0.1
+1.1.0.0/16     50.001    0.126     0      valid 1.3.0.1 1.4.0.1 1.1.0.1
+1.4.0.0/16     50.001    0.114     0      valid 1.3.0.1 1.4.0.1
+
+Routing table (60.130)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     60.001    0.013     0      valid 1.3.0.1
+1.1.0.0/16     60.001    0.127     0      valid 1.3.0.1 1.4.0.1 1.1.0.1
+1.4.0.0/16     50.001    0.114     0      valid 1.3.0.1 1.4.0.1
+
+Routing table (60.175)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     60.001    0.013     0      valid 1.3.0.1
+1.1.0.0/16     60.001    0.127     0      valid 1.3.0.1 1.4.0.1 1.1.0.1
+1.4.0.0/16     60.001    0.115     0      valid 1.3.0.1 1.4.0.1
+
+Routing table (70.022)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     70.002    0.012     0      valid 1.3.0.1
+1.1.0.0/16     60.001    0.127     0      valid 1.3.0.1 1.4.0.1 1.1.0.1
+1.4.0.0/16     60.001    0.115     0      valid 1.3.0.1 1.4.0.1
+
+Forwarding table (70.026)
+0.0.0.0/0 0
+1.3.0.0/16 0
+1.1.0.0/16 1
+1.4.0.0/16 0
+
+Routing table (70.026)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     70.002    0.012     0      valid 1.3.0.1
+1.1.0.0/16     70.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     60.001    0.115     0      valid 1.3.0.1 1.4.0.1
+
+Forwarding table (70.094)
+0.0.0.0/0 0
+1.3.0.0/16 0
+1.1.0.0/16 1
+1.4.0.0/16 1
+
+Routing table (70.095)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     70.002    0.012     0      valid 1.3.0.1
+1.1.0.0/16     70.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     70.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (80.024)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     80.000    0.012     0      valid 1.3.0.1
+1.1.0.0/16     70.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     70.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (80.031)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     80.000    0.012     0      valid 1.3.0.1
+1.1.0.0/16     80.000    0.022     1      valid 1.1.0.1
+1.4.0.0/16     70.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (80.093)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     80.000    0.012     0      valid 1.3.0.1
+1.1.0.0/16     80.000    0.022     1      valid 1.1.0.1
+1.4.0.0/16     80.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (90.020)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     90.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16     80.000    0.022     1      valid 1.1.0.1
+1.4.0.0/16     80.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (90.027)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     90.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16     90.000    0.022     1      valid 1.1.0.1
+1.4.0.0/16     80.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (90.092)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16     90.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16     90.000    0.022     1      valid 1.1.0.1
+1.4.0.0/16     90.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (100.018)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16    100.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16     90.000    0.022     1      valid 1.1.0.1
+1.4.0.0/16     90.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (100.032)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16    100.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16    100.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16     90.001    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Routing table (100.099)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16    100.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16    100.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16    100.006    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Final Report
+
+Routing table (108.228)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.3.0.0/16    100.001    0.012     0      valid 1.3.0.1
+1.1.0.0/16    100.001    0.022     1      valid 1.1.0.1
+1.4.0.0/16    100.006    0.034     1      valid 1.1.0.1 1.4.0.1
+
+Forwarding table (108.228)
+0.0.0.0/0 0
+1.3.0.0/16 0
+1.1.0.0/16 1
+1.4.0.0/16 1
+
+Router link cost statistics
+  peerIp    count  avgCost  minCost  maxCost
+ 1.3.0.1      105    0.012    0.008    0.031
+ 1.1.0.1       74    0.022    0.021    0.040
+
+SrcSnk statistics
+  destIp    count avgDelay minDelay maxDelay
+ 1.1.0.1       81    0.061    0.021    0.125
+ 1.4.0.1       97    0.062    0.031    0.115
+ 1.3.0.1      104    0.016    0.011    0.076
+

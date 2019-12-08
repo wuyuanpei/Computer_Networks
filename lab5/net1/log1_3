@@ -1,0 +1,22 @@
+Final Report
+
+Routing table (28.230)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.1.0.0/16     20.005    0.012     0      valid 1.1.0.1
+1.2.0.0/16     20.001    0.034     0      valid 1.1.0.1 1.2.0.1
+
+Forwarding table (28.237)
+0.0.0.0/0 0
+1.1.0.0/16 0
+1.2.0.0/16 0
+
+Router link cost statistics
+  peerIp    count  avgCost  minCost  maxCost
+ 1.1.0.1       27    0.013    0.011    0.039
+ 1.2.0.1       26    0.053    0.051    0.069
+
+SrcSnk statistics
+  destIp    count avgDelay minDelay maxDelay
+ 1.1.0.1       31    0.012    0.011    0.014
+ 1.2.0.1       30    0.033    0.031    0.035
+

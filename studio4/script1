@@ -1,0 +1,15 @@
+#! /bin/bash
+dropProb=.2
+delta=.05
+source /users/onl/.topology
+echo "dropProb=" $dropProb " delta=" $delta
+ssh $h7x1 "cd studio4; java TestMonitor h7x1 11313 10 debug ${dropProb} \
+    ${delta} >srvOut1 &"
+ssh $h4x2 "cd studio4; java TestMonitor h4x2 0 10 debug ${dropProb} \
+    ${delta} h7x1 11313 >cliOut1"
+sleep 2
+echo "************** client report ****************"
+cat cliOut1
+sleep 5
+echo "************** server report ****************"
+cat srvOut1

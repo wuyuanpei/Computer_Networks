@@ -1,0 +1,75 @@
+delta=0.5
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+1:28:fum supercalifragilisticexpi
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+1:17:gilisticexpialido
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+2:41:ticexpialidoc
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+2:25:alifragi
+discarding 3:73:bracadbra feefifofum supercalifr
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+4:86:gilisticexpia
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+4:72:gil
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+5:89:aca
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+5:94:racadbra feefifofum su
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+6:92:fum
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+6:95:b
+discarding 7:131:adbra feefifofum supercalifragilisticex
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+7:102:eefifof
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+8:168:acadbra feefifofum supercalifragilist
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+9:187:a feefifofum superc
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+9:120: superca
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+10:235:dbra feefifofum supercalifragilisticexpialidocio
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+11:265:abracadbra feefifofum supercal
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+11:165:feefifofum supercalifragilisticex
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+12:274:cexpialid
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+12:177:sticexpialid
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+13:274:
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+13:194:cadbra feefifofum
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+14:306:eefifofum supercalifragilisticex
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+15:324:alifragilisticexpi
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+15:224:
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+16:327:ofu
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+16:231:ialidoc
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+17:330:xpi
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+17:235:m su
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+18:344:racadbra feefi
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+18:280:acadbra feefifofum supercalifragilisticexpial
+discarding 19:351:acadbra
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+19:330:racadbra feefifofum supercalifragilisticexpialidoc
+/127.0.0.1:49196 sending packet to localhost/127.0.0.1:54321
+20:368:ercalifragilistic
+/127.0.0.1:49196 received packet from /127.0.0.1:54321
+20:349:efifofum supercalif
+MONITOR REPORT
+pktsSent = 20
+pktsRcvd = 16
+charsSent = 368
+charsRcvd = 253

@@ -1,0 +1,7 @@
+hostIp: 192.168.2.3
+myIp: 1.3.0.1
+neighbor: 1.2.0.1 192.168.7.1 .04
+neighbor: 1.4.0.1 192.168.5.2 .03
+neighbor: 1.6.0.1 192.168.2.4 .05
+destination: 1.1.0.1
+destination: 1.5.0.1

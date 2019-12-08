@@ -1,0 +1,5 @@
+#! /bin/bash
+source /users/onl/.topology
+ssh $h7x1 /usr/bin/iperf -s -w 4M &
+ssh $h6x1 /usr/bin/iperf -s -w 4M &
+ssh $h3x2 /usr/bin/iperf -s -w 4M &

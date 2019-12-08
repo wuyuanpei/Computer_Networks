@@ -1,0 +1,139 @@
+/192.168.5.2:41361 sending packet to /192.168.1.1:56794
+CSE473 DHTPv0.1
+type:join
+tag:74847
+ttl:100
+
+/192.168.5.2:41361 received packet from /192.168.1.1:56794
+CSE473 DHTPv0.1
+type:success
+hashRange:1879048192:2147483647
+senderInfo:192.168.1.1:56794:1610612736
+succInfo:192.168.7.1:45084:0
+predInfo:192.168.1.1:56794:1610612736
+tag:74847
+ttl:98
+
+rteTbl=[(/192.168.7.1:45084,0)]
+
+/192.168.5.2:41361 received packet from /192.168.4.2:41336
+CSE473 DHTPv0.1
+type:get
+key:goodbye
+tag:36343
+ttl:99
+
+/192.168.5.2:41361 sending packet to /192.168.7.1:45084
+CSE473 DHTPv0.1
+type:get
+key:goodbye
+relayAdr:192.168.5.2:41361
+clientAdr:192.168.4.2:41336
+tag:36343
+ttl:99
+
+/192.168.5.2:41361 received packet from /192.168.7.1:45084
+CSE473 DHTPv0.1
+type:no match
+key:goodbye
+relayAdr:192.168.5.2:41361
+clientAdr:192.168.4.2:41336
+senderInfo:192.168.7.1:45084:0
+tag:36343
+ttl:97
+
+/192.168.5.2:41361 sending packet to /192.168.4.2:41336
+CSE473 DHTPv0.1
+type:no match
+key:goodbye
+tag:36343
+ttl:97
+
+/192.168.5.2:41361 received packet from /192.168.4.2:52670
+CSE473 DHTPv0.1
+type:put
+key:flip
+value:flop
+tag:20284
+ttl:99
+
+/192.168.5.2:41361 sending packet to /192.168.7.1:45084
+CSE473 DHTPv0.1
+type:put
+key:flip
+relayAdr:192.168.5.2:41361
+clientAdr:192.168.4.2:52670
+value:flop
+tag:20284
+ttl:99
+
+/192.168.5.2:41361 received packet from /192.168.7.1:45084
+CSE473 DHTPv0.1
+type:success
+key:flip
+relayAdr:192.168.5.2:41361
+clientAdr:192.168.4.2:52670
+senderInfo:192.168.7.1:45084:0
+value:flop
+tag:20284
+ttl:97
+
+/192.168.5.2:41361 sending packet to /192.168.4.2:52670
+CSE473 DHTPv0.1
+type:success
+key:flip
+value:flop
+tag:20284
+ttl:97
+
+/192.168.5.2:41361 received packet from /192.168.1.1:56794
+CSE473 DHTPv0.1
+type:put
+key:abra
+relayAdr:192.168.3.2:40444
+clientAdr:192.168.4.2:55929
+value:cadabra
+tag:36247
+ttl:96
+
+/192.168.5.2:41361 sending packet to /192.168.3.2:40444
+CSE473 DHTPv0.1
+type:success
+key:abra
+relayAdr:192.168.3.2:40444
+clientAdr:192.168.4.2:55929
+senderInfo:192.168.5.2:41361:1879048192
+value:cadabra
+tag:36247
+ttl:96
+
+/192.168.5.2:41361 received packet from /192.168.4.2:54968
+CSE473 DHTPv0.1
+type:get
+key:abra
+tag:68416
+ttl:99
+
+/192.168.5.2:41361 sending packet to /192.168.4.2:54968
+CSE473 DHTPv0.1
+type:success
+key:abra
+value:cadabra
+tag:68416
+ttl:99
+
+/192.168.5.2:41361 received packet from /192.168.4.2:34585
+CSE473 DHTPv0.1
+type:get
+key:abra
+tag:81625
+ttl:99
+
+/192.168.5.2:41361 sending packet to /192.168.4.2:34585
+CSE473 DHTPv0.1
+type:success
+key:abra
+value:cadabra
+tag:81625
+ttl:99
+

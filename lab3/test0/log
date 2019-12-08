@@ -1,0 +1,121 @@
+/127.0.0.1:56460 received packet from /127.0.0.1:50068
+CSE473 DHTPv0.1
+type:put
+key:foo
+value:bar
+tag:44820
+ttl:99
+
+/127.0.0.1:56460 sending packet to /127.0.0.1:50068
+CSE473 DHTPv0.1
+type:success
+key:foo
+value:bar
+tag:44820
+ttl:99
+
+/127.0.0.1:56460 received packet from /127.0.0.1:60735
+CSE473 DHTPv0.1
+type:put
+key:who
+value:hah
+tag:82765
+ttl:99
+
+/127.0.0.1:56460 sending packet to /127.0.0.1:60735
+CSE473 DHTPv0.1
+type:success
+key:who
+value:hah
+tag:82765
+ttl:99
+
+/127.0.0.1:56460 received packet from /127.0.0.1:61313
+CSE473 DHTPv0.1
+type:get
+key:foo
+tag:74119
+ttl:99
+
+/127.0.0.1:56460 sending packet to /127.0.0.1:61313
+CSE473 DHTPv0.1
+type:success
+key:foo
+value:bar
+tag:74119
+ttl:99
+
+/127.0.0.1:56460 received packet from /127.0.0.1:57229
+CSE473 DHTPv0.1
+type:get
+key:who
+tag:65831
+ttl:99
+
+/127.0.0.1:56460 sending packet to /127.0.0.1:57229
+CSE473 DHTPv0.1
+type:success
+key:who
+value:hah
+tag:65831
+ttl:99
+
+/127.0.0.1:56460 received packet from /127.0.0.1:51255
+CSE473 DHTPv0.1
+type:get
+key:goodbye
+tag:59906
+ttl:99
+
+/127.0.0.1:56460 sending packet to /127.0.0.1:51255
+CSE473 DHTPv0.1
+type:no match
+key:goodbye
+tag:59906
+ttl:99
+
+/127.0.0.1:56460 received packet from /127.0.0.1:53481
+CSE473 DHTPv0.1
+type:get
+key:bar
+tag:21377
+ttl:99
+
+/127.0.0.1:56460 sending packet to /127.0.0.1:53481
+CSE473 DHTPv0.1
+type:no match
+key:bar
+tag:21377
+ttl:99
+
+/127.0.0.1:56460 received packet from /127.0.0.1:64155
+CSE473 DHTPv0.1
+type:put
+key:foo
+value:toast is tasty
+tag:15219
+ttl:99
+
+/127.0.0.1:56460 sending packet to /127.0.0.1:64155
+CSE473 DHTPv0.1
+type:success
+key:foo
+value:toast is tasty
+tag:15219
+ttl:99
+
+/127.0.0.1:56460 received packet from /127.0.0.1:61947
+CSE473 DHTPv0.1
+type:get
+key:foo
+tag:82305
+ttl:99
+
+/127.0.0.1:56460 sending packet to /127.0.0.1:61947
+CSE473 DHTPv0.1
+type:success
+key:foo
+value:toast is tasty
+tag:82305
+ttl:99
+

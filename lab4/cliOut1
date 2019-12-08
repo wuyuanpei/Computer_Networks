@@ -1,0 +1,54 @@
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[0] testing 0
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[1] testing 1
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[2] testing 2
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[3] testing 3
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[4] testing 4
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[0] testing 0
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[1] testing 1
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[2] testing 2
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[3] testing 3
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[4] testing 4
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[0] testing 0
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[2] testing 2
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[3] testing 3
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[4] testing 4
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[0] testing 0
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 ack[0]
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 ack[0]
+discarding ack[0]
+discarding ack[0]
+discarding ack[0]
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[1] testing 1
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[2] testing 2
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 ack[1]
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 ack[2]
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[3] testing 3
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[4] testing 4
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 ack[3]
+discarding ack[4]
+/192.168.4.2:56605 received from /192.168.7.1:11313 ack[0]
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[5] testing 5
+/192.168.4.2:56605 received from /192.168.7.1:11313 ack[1]
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[6] testing 6
+/192.168.4.2:56605 received from /192.168.7.1:11313 ack[4]
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[7] testing 7
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[8] testing 8
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 data[9] testing 9
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[5] testing 5
+discarding ack[5]
+/192.168.4.2:56605 received from /192.168.7.1:11313 ack[5]
+/192.168.4.2:56605 received from /192.168.7.1:11313 ack[7]
+/192.168.4.2:56605 received from /192.168.7.1:11313 ack[8]
+/192.168.4.2:56605 received from /192.168.7.1:11313 ack[9]
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[4] testing 4
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 ack[5]
+/192.168.4.2:56605 received from /192.168.7.1:11313 data[5] testing 5
+/192.168.4.2:56605 sending to h7x1/192.168.7.1:11313 ack[5]
+  Sender: sent 15 data packets, 12 acks
+          discarded 0 data packets, 5 acks
+          runLength 1.096745583
+Receiver: received 12 data packets, 7 acks
+          discarded 0 arrivals 
+          runLength 0.600155227
+  SrcSnk: sent 10, received 6
+          runLength 0.3

@@ -1,0 +1,29 @@
+#! /bin/bash
+source /users/onl/.topology
+
+password=$1
+
+sshpass -p $password scp Listener.java Sender.java $h1x2:~/
+sshpass -p $password scp Listener.java Sender.java $h2x2:~/
+
+sshpass -p $password ssh $h1x2 "cd ~/; javac *.java; java Listener > Out1" &
+sleep 1
+sshpass -p $password ssh $h2x2 "cd ~/; javac *.java; java Sender 192.168.1.2 11313 30123 h2x2" &
+
+sleep 5
+
+sshpass -p $password scp $h1x2:~/Out1 ~/473/lab6
+
+echo "********** Out1 **********"
+cat Out1
+
+sshpass -p $password ssh $h2x2 "cd ~/; java Listener > Out2" &
+sleep 1
+sshpass -p $password ssh $h1x2 "cd ~/; java Sender 192.168.2.2 11313 30123 h1x2" &
+
+sleep 5
+
+sshpass -p $password scp $h2x2:~/Out2 ~/473/lab6
+
+echo "********** Out2 **********"
+cat Out2

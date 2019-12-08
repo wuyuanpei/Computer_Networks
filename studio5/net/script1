@@ -1,0 +1,33 @@
+#! /bin/bash
+source /users/onl/.topology
+
+delta=$1
+runlength=$2
+static=$3
+debug=$4
+
+root=~/Users/wuyuanpei/Desktop/WorkStation/CSE473_code/cse473s-f19-students-yuanpei.wu/studio5
+numRtrs=6
+
+host[1]=$h4x2
+host[2]=$h7x1
+host[3]=$h2x3
+host[4]=$h5x2
+host[5]=$h6x1
+host[6]=$h2x4
+
+i=1
+while [ $i -le ${numRtrs} ] ; do
+	ssh ${host[$i]} "cd ${root}; java TestRouter net/r${i} \
+	    ${delta} ${runlength} ${static} ${debug}" >log${i} &
+	i=$((i+1))
+done
+
+sleep $((runlength + 20))
+
+i=1
+while [ $i -le ${numRtrs} ] ; do
+	echo "*********** log " $i " *************"
+	grep -A10 "SrcSnk statistics" log${i}
+	i=$((i+1))
+done
